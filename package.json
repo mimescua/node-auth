@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "env-cmd node index.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,5 +16,8 @@
     "express-validator": "^6.3.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.8.2"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
   }
 }
